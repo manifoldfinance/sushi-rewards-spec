@@ -27,6 +27,13 @@ $$ Hhf = BC / ∑︁  𝑉𝑎𝑙𝑢𝑒 𝑜𝑓 𝐷𝑒𝑏𝑡t $$
 **MVI**: Mininumal Profitable Viable Input
 
 
+## Rebate Calculations 
+
+@version: v0.1.0
+@date: 08/11/2021
+@license: CC-ND-NC-2.5
+@note: naive implementation, expect changes
+
 bundleCost = mev bribe + bundleTxs[1,2,...]
 
 gasAllowance =  mev bribe - bundleTxs[1,2,...]
@@ -36,5 +43,4 @@ BundleTransactionGas[1,2,...] = Individual Gas Cost
 BundleId = The Block Number (or hash?) in which the bundle was included
 
 max_gasRebate = (BundleId(BundleTransactionGas[1,2,...]))
-// max_gasRebate for that bundle
-// BundleTransactionGas is the summation of all included transactions (include our own?)
+
