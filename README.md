@@ -1,5 +1,7 @@
 # sushi-rewards-spec
 
+[Read the spec on HackMD](https://hackmd.io/@sbacha/gas-rebates-sushi)
+
 **Atomic arbitrage profit (aarb)**: is defined as the gain of two atomically executed arbitrage trades $TA$ and $TB$ on exchange $A$ and $B$.
 
 
@@ -28,11 +30,12 @@ $$ Hhf = BC / ∑︁  𝑉𝑎𝑙𝑢𝑒 𝑜𝑓 𝐷𝑒𝑏𝑡t $$
 
 
 ## Rebate Calculations 
-
+<!--
 @version: v0.1.0
 @date: 08/11/2021
 @license: CC-ND-NC-2.5
 @note: naive implementation, expect changes
+<!--
 
 bundleCost = mev bribe + bundleTxs[1,2,...]
 
